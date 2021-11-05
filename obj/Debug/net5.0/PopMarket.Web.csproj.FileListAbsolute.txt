@@ -206,7 +206,6 @@ C:\Users\kehinde.disu\Documents\PopMarket.Web\PopMarket.Web\bin\Debug\net5.0\zh-
 C:\Users\kehinde.disu\Documents\PopMarket.Web\PopMarket.Web\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\kehinde.disu\Documents\PopMarket.Web\PopMarket.Web\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\kehinde.disu\Documents\PopMarket.Web\PopMarket.Web\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\kehinde.disu\Documents\PopMarket.Web\PopMarket.Web\obj\Debug\net5.0\PopMarket.Web.csproj.AssemblyReference.cache
 C:\Users\kehinde.disu\Documents\PopMarket.Web\PopMarket.Web\obj\Debug\net5.0\PopMarket.Web.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\kehinde.disu\Documents\PopMarket.Web\PopMarket.Web\obj\Debug\net5.0\PopMarket.Web.AssemblyInfoInputs.cache
 C:\Users\kehinde.disu\Documents\PopMarket.Web\PopMarket.Web\obj\Debug\net5.0\PopMarket.Web.AssemblyInfo.cs
@@ -237,3 +236,4 @@ C:\Users\kehinde.disu\Documents\PopMarket.Web\PopMarket.Web\obj\Debug\net5.0\Pop
 C:\Users\kehinde.disu\Documents\PopMarket.Web\PopMarket.Web\obj\Debug\net5.0\ref\PopMarket.Web.dll
 C:\Users\kehinde.disu\Documents\PopMarket.Web\PopMarket.Web\obj\Debug\net5.0\PopMarket.Web.pdb
 C:\Users\kehinde.disu\Documents\PopMarket.Web\PopMarket.Web\obj\Debug\net5.0\PopMarket.Web.genruntimeconfig.cache
+C:\Users\kehinde.disu\Documents\PopMarket.Web\PopMarket.Web\obj\Debug\net5.0\PopMarket.Web.csproj.AssemblyReference.cache

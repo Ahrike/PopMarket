@@ -42,7 +42,13 @@ namespace PopMarket.Web.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
+        /* Notes
+    * the products can be added to a database and be fetch with query or stored procedure but since for this demo
+    * i only image the customer has just a merchant on it platform. At the point of signing up to the platform, the platform can assign an id 
+    * to each creator, Insert their details to a database.
+    *The platform can also create a module where creators can login to delete contents they dont want to display again, upload new ones
+    * edit price and all
+    */
 
-      
     }
 }
