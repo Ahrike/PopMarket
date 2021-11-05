@@ -1,0 +1,43 @@
+﻿@model Checkout
+    @{
+    var data = ViewBag.Paydetails;
+    }
+
+
+    <main class="container">
+
+        <div class="text-center">
+
+
+            <div>
+                <section id="payment__details" class="">
+
+                    <div class="entry-wrapper">
+
+                        <div id="pop" class="view view-one">
+
+
+                            <h2>Welcome To Pop Market CheckOut</h2>
+                            <p>Kindly input your email address below to continue</p>
+                            <form method="post" class="d-flex flex-column align-items-center">
+                                <div class="input-row" style="width: 45%">
+                                    <label for="">Enter your email address</label>
+                                    <input asp-for="Email" type="text"  class="input-field" id="txtEmail"   required runat="server">
+
+                                    <br />
+                                    <label for="" class="mt-4">Amount(=N=)</label>
+                                    <input type="text" class="input-field" asp-for="Amount" name="name" value="@data?.Amount" readonly />
+                                </div>
+                                <div class="">
+                                    <button href="#" class="buy-btn">Continue Transaction</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+        </div>
+    </main>

@@ -1,0 +1,141 @@
+﻿@model PopMarket.Web.Models.CustomerInfo
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="">To Pop Market</a>.</p>
+</div>
+
+<div class="main-container">
+    <div class="each-product-1">
+        <span>Music</span>
+        <h1>Donda</h1>
+        <div class="text-center">
+            is an album by Kanye West.
+            Buy to get access to download link.
+        </div>
+        <img src="~/images/Donda.jpg" class="img-style" />
+        <form method="post">
+            <input asp-for="amount" class="" type="number" aria-hidden="true" value="2000" readonly hidden>
+
+            <button asp-controller="Home" asp-action="Index" href="#" class="buy-btn">Buy@2000=N=</button>
+        </form>
+    </div>
+
+    <div class="each-product-1">
+        <span>Music</span>
+        <h1>Stranger Inside You</h1>
+        <div class="text-center">
+            is an album by  Luke Woolley.
+            Buy to get access to download link.
+        </div>
+        <img src="~/images/strangerInsideyou.jpg" class="img-style" />
+        <form method="post">
+            <input asp-for="amount" class="" type="number" aria-hidden="true" value="2500" readonly hidden>
+
+            <button asp-controller="Home" asp-action="Index" href="#" class="buy-btn">Buy@2500=N=</button>
+        </form>
+    </div>
+
+    <div class="each-product-1">
+        <span>Music</span>
+        <h1>For Broken Ears</h1>
+        <div class="text-center">
+            is an album by Tems.
+            Buy to get access to download link.
+        </div>
+        <img src="~/images/Tems.jpg" class="img-style" />
+        <form method="post">
+            <input asp-for="amount" class="" type="number" aria-hidden="true" value="2000" readonly hidden>
+
+            <button asp-controller="Home" asp-action="Index" href="#" class="buy-btn">Buy@2000=N=</button>
+        </form>
+    </div>
+
+    <div class="each-product-1">
+        <span>Music</span>
+        <h1>H.E.R</h1>
+        <div class="text-center">
+            is an album by H.E.R.
+            Buy to get access to download link
+        </div>
+        <img src="~/images/H.E.R._(2017)_album_cover.jpg" class="img-style" />
+        <form method="post">
+            <input asp-for="amount" class="" type="number" aria-hidden="true" value="1500" readonly hidden>
+
+            <button asp-controller="Home" asp-action="Index" href="#" class="buy-btn">Buy@1500=N=</button>
+        </form>
+    </div>
+
+    <div class="each-product-1">
+        <span>Art</span>
+        <h1>Urban Woman</h1>
+        <div class="text-center">
+            painted by jekein lato-unah.
+        </div>
+        <img src="~/images/jjart.jpg" class="img-style" />
+        <form method="post">
+            <input asp-for="amount" class="" type="number" aria-hidden="true" value="250000" readonly hidden>
+
+            <button asp-controller="Home" asp-action="Index" href="#" class="buy-btn">Buy@600000=N=</button>
+        </form>
+    </div>
+
+    <div class="each-product-1">
+        <span>Art</span>
+        <h1>Zainab</h1>
+        <div class="text-center">
+            painted by jekein lato-unah.
+        </div>
+        <img src="~/images/artbyjj.jpg" class="img-style" />
+        <form method="post">
+            <input asp-for="amount" class="" type="number" aria-hidden="true" value="15000" readonly hidden>
+
+            <button asp-controller="Home" asp-action="Index" href="#" class="buy-btn">Buy@15000=N=</button>
+        </form>
+    </div>
+
+
+    <div class="each-product-1">
+        <span>Art</span>
+        <h1>More Branche</h1>
+        <div class="text-center">
+            painted by jekein lato-unah.
+        </div>
+        <img src="~/images/downloadjj.jpg" class="img-style" />
+        <form method="post">
+            <input asp-for="amount" class="" type="number" aria-hidden="true" value="350000" readonly hidden>
+
+            <button asp-controller="Home" asp-action="Index" href="#" class="buy-btn">Buy@350000=N=</button>
+        </form>
+    </div>
+
+    <div class="each-product-1">
+        <span>Art</span>
+        <h1>Displacement</h1>
+        <div class="text-center">
+            painted by jekein lato-unah.
+        </div>
+        <img src="~/images/displacement.jpg" class="img-style" />
+        <form method="post">
+            <input asp-for="amount" class="" type="number" aria-hidden="true" value="600000" readonly hidden>
+
+            <button asp-controller="Home" asp-action="Index" href="#" class="buy-btn">Buy@600000=N=</button>
+        </form>
+    </div>
+
+
+</div>
+
+  /* Notes
+     * the products can be added to a database and be fetch with query or stored procedure but since for this demo
+     * i only image the customer has just a merchant on it platform. At the point of signing up to the platform, the platform can assign an id 
+     * to each creator, Insert their details to a database.
+     *The platform can also create a module where creators can login to delete contents they dont want to display again, upload new ones
+     * edit price and all
+     */
+
+
+
+
+
